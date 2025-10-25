@@ -1,7 +1,37 @@
-Flask
+# Flask
+# PyPDF2
+# python-docx
+# spacy
+# pandas
+# plotly
+# flask-cors
+
+
+
+# FastAPI Server
+fastapi
+uvicorn[standard]
+python-multipart
+gunicorn
+
+# Pydantic for models
+pydantic
+
+# PDF and DOCX reading
 PyPDF2
 python-docx
+
+# NLP
 spacy
-pandas
-plotly
-flask-cors
+# Note: After installation, run the following command manually:
+# python -m spacy download en_core_web_sm
+
+# Google API
+google-generativeai
+
+# MongoDB (Async Driver)
+motor
+
+# Testing
+pytest
+pytest-asyncio
