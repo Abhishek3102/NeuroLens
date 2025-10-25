@@ -16,6 +16,8 @@ gunicorn
 
 # Pydantic for models
 pydantic
+pydantic-settings
+
 
 # PDF and DOCX reading
 PyPDF2
