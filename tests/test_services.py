@@ -1,7 +1,11 @@
 import pytest
+import sys
+import os
 from app.services import extract_skills, analyze_target_role
 from app.models import Skill
 from app.constants import JOB_ROLES
+# from app.services import *
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # --- Test Data ---
 @pytest.fixture
